@@ -34,10 +34,11 @@ window.app
     $stateProvider
       .state('index', {
         url: '/',
-        template: '<div id="document-content" class="markdown"><p class="_text-center" style="margin: 100px 0;">Loading page content.</p></div>',
-        controller: function ($scope, $http) {
+        template: '<div id="document-content" class="markdown-body"><p class="_text-center" style="margin: 100px 0;">Loading page content.</p></div>',
+        controller: function ($scope, $rootScope, $http) {
           $http.get('https://raw.githubusercontent.com/TheCrossroads/discord-guides/master/index.md')
             .then(function (response) {
+              $rootScope.ghLink = 'https://github.com/TheCrossroads/discord-guides/blob/master/index.md'
               document.getElementById('document-content').innerHTML = marked(response.data, {renderer: renderer})
             })
         }
@@ -45,8 +46,8 @@ window.app
 
       .state('viewDocument', {
         url: '/:category/:document',
-        template: '<div id="document-content" class="markdown"><p class="_text-center" style="margin: 100px 0;">Loading page content.</p></div>',
-        controller: function ($scope, $state, $stateParams, $http, CATEGORIES) {
+        template: '<div id="document-content" class="markdown-body"><p class="_text-center" style="margin: 100px 0;">Loading page content.</p></div>',
+        controller: function ($scope, $rootScope, $state, $stateParams, $http, CATEGORIES) {
           var category = false
 
           for (var i = 0; i < CATEGORIES.length; i++) {
@@ -73,6 +74,7 @@ window.app
 
           $http.get('https://raw.githubusercontent.com/TheCrossroads/discord-guides/master/' + category.file + '/' + doc.file)
             .then(function (response) {
+              $rootScope.ghLink = 'https://github.com/TheCrossroads/discord-guides/blob/master/' + category.file + '/' + doc.file
               document.getElementById('document-content').innerHTML = marked(response.data, {renderer: renderer})
             })
         }
@@ -80,6 +82,9 @@ window.app
   })
 
   .run(function ($rootScope, $mdSidenav) {
+    // GitHub link for current doc
+    $rootScope.ghLink = 'https://github.com/TheCrossroads/discord-guides'
+
     // Global navigation controller
     $rootScope.navigation = {
       open: function () {

@@ -8,6 +8,7 @@
   <!-- build:css assets/css/app.css -->
   <link href="assets/css/angular-material.min.css" rel="stylesheet">
   <link href="assets/css/app.css" rel="stylesheet">
+  <link href="assets/css/markdown-css.min.css" rel="stylesheet">
   <!-- endbuild -->
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -33,6 +34,10 @@
         <h2 ui-sref="index"><span>Discord Guides</span></h2>
 
         <span flex></span>
+
+        <md-button class="md-icon-button" aria-label="Edit document online" href="{[{ghLink}]}">
+          <md-icon>open_in_new</md-icon>
+        </md-button>
 
         <md-button class="md-icon-button" aria-label="Join our server" href="https://discord.gg/011coFFv8vdkSDNvs">
           <md-icon>help_outline</md-icon>
@@ -62,7 +67,7 @@
 
       <md-content style="flex: 1 1 auto;" ng-controller="ContentCtrl">
         <md-card class="page-content" ng-class="{dock: !gtSm}">
-          <md-card-content>
+          <md-card-content class="_p-0">
             <ui-view></ui-view>
           </md-card-content>
         </md-card>

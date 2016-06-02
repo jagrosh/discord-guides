@@ -21,39 +21,15 @@ md-content:not(.--with-bg) {
   border-radius: 0;
 }
 
-.markdown h1, .markdown h2, .markdown h3, .markdown h4 {
-  padding-bottom: 0.3em;
-  line-height: 1.225;
-  border-bottom: 1px solid #eee;
+.markdown-body {
+  padding: 45px;
 }
-.markdown p {
-  margin-top: 0;
-  margin-bottom: 16px;
+@media only screen and (max-width: 480px) {
+  .markdown-body {
+    padding: 25px;
+  }
 }
-
-.markdown blockquote {
-  margin: 10px;
-  padding: 0 15px;
-  color: #777;
-  border-left: 4px solid #ddd;
-}
-.markdown hr {
-  height: 4px;
-  padding: 0;
-  margin: 16px 0;
-  background-color: #e7e7e7;
-  border: 0 none;
-}
-.markdown hr::before {
-  display: table;
-  content: "";
-}
-.markdown hr::after {
-  display: table;
-  clear: both;
-  content: "";
-}
-.markdown p img {
+.markdown-body p img {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -62,6 +38,9 @@ md-content:not(.--with-bg) {
 
 ._text-center {
   text-align: center !important;
+}
+._p-0 {
+  padding: 0 !important;
 }
 ._p-15 {
   padding: 15px !important;
