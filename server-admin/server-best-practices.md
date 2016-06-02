@@ -13,7 +13,7 @@ Once you've created your server, it's best to make sure all of the configuration
 
 ![Server settings overview 1](http://i.imgur.com/pMU9VwH.png)
 
-![Server settings overview 2](http://i.imgur.com/UHPJQUZ.png)
+![Server settings overview 2](http://i.imgur.com/JXfbVda.png)
 
 1. Your server's name
     - Make it short and sweet
