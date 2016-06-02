@@ -28,6 +28,11 @@
       {
         "name": "Server Overview",
         "file": "server-overview.md"
+      },
+
+      {
+        "name": "Messages",
+        "file": "messages.md"
       }
     ]
   },
