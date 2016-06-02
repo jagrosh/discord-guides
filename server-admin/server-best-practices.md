@@ -23,7 +23,7 @@ Once you've created your server, it's best to make sure all of the configuration
 3. Server icon
     - Make it convey your brand or the brand/community your server represents
     - Inside jokes aren't great - new users don't understand
-    - Should not contain inside jokes, funsny pictures, or anything random
+    - Should not contain inside jokes, funny pictures, or anything random
 4. AFK Channel settings
     - Create an AFK channel and set the timeout to 30 minutes
 5. Verification level
