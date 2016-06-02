@@ -45,6 +45,11 @@
       {
         "name": "Kicks and Bans",
         "file": "kicks-and-bans.md"
+      },
+
+      {
+        "name": "Server Best Practices",
+        "file": "server-best-practices.md"
       }
     ]
   },
