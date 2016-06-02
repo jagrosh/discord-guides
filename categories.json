@@ -45,6 +45,11 @@
       {
         "name": "Kicks and Bans",
         "file": "kicks-and-bans.md"
+      },
+      
+      {
+        "name": "Creating a Server",
+        "file": "creating-a-server.md"
       }
     ]
   },
