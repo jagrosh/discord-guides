@@ -50,6 +50,11 @@
       {
         "name": "Creating a Channel",
         "file": "creating-a-channel.md"
+      },
+
+      {
+        "name": "Server Best Practices",
+        "file": "server-best-practices.md"
       }
     ]
   },
