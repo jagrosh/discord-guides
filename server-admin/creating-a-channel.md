@@ -13,31 +13,31 @@ How to Create a Text Channel
 
 Once a server is made, you will have a default text channel called \#general. To create a new text channel, simply click the '+' button next to the 'Text Channels' text. Unless you have the permissions or own the server, you cannot create or edit text channels or voice channels.
 
-<img src="./media/image1.png" width="218" height="27" />
+![channelcreationbutton](http://i.imgur.com/Qc4Ypnv.png)
 
 The channel creation button
 
 In the channel creation dialog, you can change the name of the channel you are creating, which will show up as \# and your channel name. Under that is the option for only allowing specific roles into the server. If everyone is to be let into the server, keep @everyone on. We will discuss server roles in a different guide.
 
-<img src="./media/image2.png" width="371" height="388" />
+![channelcreationdialog](http://i.imgur.com/O2XZkr8.png)
 
 The channel creation dialog
 
 Clicking the gear next to the channel name (when highlighted will show 'Edit Channel') will open a settings dialog.
 
-<img src="./media/image3.png" width="228" height="48" />
+![editchannelbutton](http://i.imgur.com/nXVtL1k.png)
 
 The 'Edit Channel' button
 
 The name of the channel can be changed, so can the channel topic. The topic will change the text that appears on the top of Discord when you are on the channel, which you can click to expand. To delete your channel, click the trash can button on the bottom of the dialog.
 
-<img src="./media/image4.png" width="429" height="260" />
+![editchanneldialog](http://i.imgur.com/OzteVzM.png)
 
 The Edit Channel dialog and the red delete channel button. Note: You cannot delete the default \#general text channel
 
 On the other tab in the dialog called 'Instant Invites', you can revoke invite links created by other people. To create your own invite, click the box with the arrow next to your channel name on the channel list.
 
-<img src="./media/image5.png" width="230" height="39" />
+![invitebutton](http://i.imgur.com/Hx8HM6X.png)
 
 The invite button
 
@@ -49,3 +49,14 @@ How to Create a Voice Channel
 Creating a voice channel is similar to creating a text channel. To create a voice channel, click the '+' button next to the voice channels text. Voice channels will always be under text channels. The dialog is the same for voice channels, and so are the invites.
 
 The settings dialog is slightly different, however. The bitrate determines the amount of bits going to and from the server. Higher bitrate is better audio quality, but may affect people on mobile or poor internet quality without much benefit. The user limit specifies how many users can be on the channel at the same time.
+
+How to Create an AFK Channel
+-----------------------------
+
+An AFK channel is a voice channel that automatically puts in users if they have been idle for a certain amount of time. To create an AFK channel, firstly create a voice channel with an appropriate name, then click the three bars on the top left of Discord, next to your server name.
+
+![serversettings](http://i.imgur.com/iixLUcf.png)
+
+>The server settings button
+
+Click server settings, and click the dropdown option for AFK channel. You can then set the AFK Channel as the channel you just created, and set the AFK timer which determines how many minutes the user has to be idle to be moved to the AFK channel. 
