@@ -19,7 +19,12 @@
     "name": "User Guides",
     "file": "user",
 
-    "documents": []
+    "documents": [
+      {
+        "name": "Discord: The Basics",
+        "file": "discord-the-basics.md"
+      }
+    ]
   },
 
   {
