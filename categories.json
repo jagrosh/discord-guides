@@ -21,8 +21,13 @@
 
     "documents": [
       {
-        "name": "Discord: The Basics",
-        "file": "discord-the-basics.md"
+        "name": "Direct Messages and Friends: The Basics",
+        "file": "direct-messages-and-friends.md"
+      },
+
+      {
+        "name": "Server Overview",
+        "file": "server-overview.md"
       }
     ]
   },
