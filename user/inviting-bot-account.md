@@ -23,6 +23,8 @@ If you would like, you can also append needed permissions to the end of your lin
 
 >Further information on permissions:  https://discordapp.com/developers/docs/topics/permissions
 
+>Permissions code generator: https://discordapi.com/permissions.html
+
 >Example oauth link with permissions: https://discordapp.com/oauth2/authorize?client_id=170242612425392128&scope=bot&permissions=536083519
 
 ##Inviting the bot
