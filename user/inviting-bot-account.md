@@ -1,10 +1,10 @@
-#Inviting a bot account to your server
+# Inviting a bot account to your server
 In the past, bots joined a server by either processing an invite link that was PMed to them, or their owner manually logging in and joining the server. Now, you can authorize the bot yourself and control what bots enter your server.
 
-##Required permissions
+## Required permissions
 In order to invite any bot to a server, you require Manage Server permissions. This stops any random users from inviting a bot to your server.
 
-##Getting the link
+## Getting the link
 First, we will need the invite link for the bot. If the bot doesn't belong to you, you will need to get it's oauth invite link. You can find this through asking the creator, a friend, the bot itself, or through a bot listing service.
 
 >Example link: https://discordapp.com/oauth2/authorize?client_id=170242612425392128&scope=bot
@@ -27,15 +27,15 @@ If you would like, you can also append needed permissions to the end of your lin
 
 >Example oauth link with permissions: https://discordapp.com/oauth2/authorize?client_id=170242612425392128&scope=bot&permissions=536083519
 
-##Inviting the bot
+## Inviting the bot
 Once you have the link, click on it. You will see a screen similar to this.
 
 ![Inviting the bot](http://i.imgur.com/kdoTF7p.png)
 
-**1.** Select your server you want to add them to. Remember, you need Manage Server permission for the server to even show up here.
+1. Select your server you want to add them to. Remember, you need Manage Server permission for the server to even show up here.
 
-**2.** Choose what permissions you want to give the bot by default. I trust RH1-N0, so I gave him all of them.
+2. Choose what permissions you want to give the bot by default. I trust RH1-N0, so I gave him all of them.
 
-**3.** Authorize the bot to join your server.
+3. Authorize the bot to join your server.
 
 The bot should now be in your server! If you gave it added permissions, it should have it's own role with those permissions that you can then edit or delete.
