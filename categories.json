@@ -24,12 +24,10 @@
         "name": "Direct Messages and Friends: The Basics",
         "file": "direct-messages-and-friends.md"
       },
-
       {
         "name": "Server Overview",
         "file": "server-overview.md"
       },
-
       {
         "name": "Messages",
         "file": "messages.md"
@@ -50,12 +48,10 @@
         "name": "Kicks and Bans",
         "file": "kicks-and-bans.md"
       },
-
       {
         "name": "Creating a Channel",
         "file": "creating-a-channel.md"
       },
-
       {
         "name": "Server Best Practices",
         "file": "server-best-practices.md"
@@ -72,7 +68,6 @@
         "name": "Create a Bot Account",
         "file": "create-a-bot-account.md"
       },
-
       {
         "name": "Using the Discord API",
         "file": "using-the-discord-api.md"
