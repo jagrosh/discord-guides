@@ -50,7 +50,7 @@
         "name": "Kicks and Bans",
         "file": "kicks-and-bans.md"
       },
-      
+
       {
         "name": "Creating a Channel",
         "file": "creating-a-channel.md"
@@ -71,6 +71,11 @@
       {
         "name": "Create a Bot Account",
         "file": "create-a-bot-account.md"
+      },
+
+      {
+        "name": "Using the Discord API",
+        "file": "using-the-discord-api.md"
       }
     ]
   }
