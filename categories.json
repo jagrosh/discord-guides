@@ -71,6 +71,10 @@
       {
         "name": "Using the Discord API",
         "file": "using-the-discord-api.md"
+      },
+      {
+        "name": "Bot Best Practices for Public Bots",
+        "file": "bot-best-practices.md"
       }
     ]
   }

@@ -1,10 +1,11 @@
 # Using the Discord API
 This guide will get you started on using the Discord API using the unofficial libraries made to interact with the API.
-Invite link to the [Discord API server.](https://discord.gg/0SBTUU1wZTWGzUuI)
+Invite link to the [Discord API server](https://discord.gg/0SBTUU1wZTWGzUuI).
 
 ## General Good Bot Practices
-A guide for general good practices when making Discord bots can be found [here.](https://github.com/meew0/discord-bot-best-practices)
-The most common ones to follow are:
+A guide for general good practices when making Discord bots can be found on the sidebar to your left.
+
+The most common guidelines to follow are:
 * Have a unique prefix.
 * Do not make your bot trigger during normal conversation.
 * Avoid making your bot chain with other bots, for example automatic table flipping and un-flipping bots.
@@ -15,10 +16,10 @@ Questions about a specific language need to be asked in library channel for that
 There is no such thing as a best library or language to make a Discord bot in.
 
 ## Programming languages
-You should pick a language that you're experienced with, or have at least basic understanding of.   
+You should pick a language that you're experienced with, or have at least basic understanding of.
 Currently, the unofficial API consists of libraries in these languages:
 
-Library comparison [chart.](https://abal.moe/Discord/Libraries.html)
+Library comparison [chart](https://abal.moe/Discord/Libraries.html).
 
 | Language | Libraries |
 | -------- | --------- |
