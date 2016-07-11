@@ -35,6 +35,11 @@
       {
         "name": "Inviting a Bot Account to your Server",
         "file": "inviting-bot-account.md"
+      },
+      {
+        "name": "Nicknames",
+        "file": "nicknames.md"
+        
       }
     ]
   },
