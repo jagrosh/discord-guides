@@ -28,7 +28,7 @@ Library comparison [chart](https://abal.moe/Discord/Libraries.html).
 | Golang | [discordgo](https://github.com/bwmarrin/discordgo) |
 | Java | [Discord4J](https://github.com/austinv11/Discord4J), [Javacord](https://github.com/BtoBastian/Javacord), [JDA](https://github.com/DV8FromTheWorld/JDA) |
 | Lua | [Discordia](https://github.com/SinisterRectus/Discordia), [litcord](https://github.com/satom99/litcord) |
-| Node.js (JavaScript) | [discord.io](https://github.com/izy521/discord.io), [discord.js](https://github.com/hydrabolt/discord.js), [discordie](https://github.com/qeled/discordie) |
+| Node.js (JavaScript) | [discord.io](https://github.com/izy521/discord.io), [discord.js](https://github.com/hydrabolt/discord.js), [discordie](https://github.com/qeled/discordie), [eris](https://github.com/abalabahaha/eris) |
 | PHP | [DiscordPHP](https://github.com/teamreflex/DiscordPHP) |
 | Python | [discord.py](https://github.com/Rapptz/discord.py) |
 | Ruby | [discordrb](https://github.com/meew0/discordrb) |
