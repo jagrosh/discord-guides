@@ -57,6 +57,10 @@
         "name": "Creating a Channel",
         "file": "creating-a-channel.md"
       },
+	  {
+		"name": "Creating private channels",
+		"file": "private-channels.md"
+	  },
       {
         "name": "Server Best Practices",
         "file": "server-best-practices.md"
