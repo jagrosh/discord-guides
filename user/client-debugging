@@ -1,0 +1,17 @@
+# Debugging the Discord Client
+Once in a while, the Discord Client might do something unexpected. Here are some solutions for how to deal with most issues.
+
+## Refresh the Client (type Ctrl-R on Windows, or Cmd-R on Mac)
+Almost all bugs are cosmetic issues, and almost all of these can be solved with a simple refresh. This should be your "go-to" solution when something doesn't seem right.
+
+## Restart the Client (quit entirely)
+Occasionally, refreshing might not be enough, and you need to restart completely. This will also force the application to check for new updates.
+
+## Check the status page
+If refreshing and restarting don't solve your issue, the Discord servers could be down or under stress. Check out https://status.discordapp.com/ to see if everything is good on their end.
+
+## Check your Voice Connection Info (for audio bugs only)
+If your audio is cutting out or not working, first check your audio info by hitting the info button as shows below:
+![AudioInfo](http://i.imgur.com/agRnONV.png)
+If your ping and connection seem fine, make sure that you are using the correct audio devices. Check the "Voice" page in your User Settings (show below) and check the selected devices, as well as making sure your input mode is "Voice Activity" if you want to just talk, or "Push to Talk" if you want to press a button while talking.
+![VoiceSettings](http://i.imgur.com/41kWGeF.png)
