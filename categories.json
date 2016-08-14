@@ -39,7 +39,10 @@
       {
         "name": "Nicknames",
         "file": "nicknames.md"
-        
+      },
+      {
+        "name": "Extra Channel Tips",
+        "file": "extra-channel-tips.md"
       }
     ]
   },
